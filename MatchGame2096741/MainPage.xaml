@@ -9,8 +9,9 @@
             Spacing="25" 
             Padding="30,0" 
             VerticalOptions="Center">
-           
-            <Label Text="Match Game Indel" x:Name="lblPrincipal" FontSize="Large" HorizontalOptions="Center" />
+
+            <Label Text="Match Game Indel" x:Name="lblPrincipal" FontSize="Large" HorizontalOptions="Center" class="" />
+            <Button x:Name="Reiniciar" Text="Reiniciar" Clicked="ReiniciarClicked" />
             <Grid x:Name="Grid1">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
