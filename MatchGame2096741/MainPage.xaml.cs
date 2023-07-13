@@ -95,7 +95,7 @@ public partial class MainPage : ContentPage
 
         
      }
-
+    //Para reiniciar
     private void ReiniciarClicked(object sender, EventArgs e)
     {
         Navigation.PushModalAsync(new MainPage());
